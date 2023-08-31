@@ -1,0 +1,31 @@
+.container {
+    text-align: center;
+    background-color: red;
+    border-radius: 5%;
+    height: 400px;
+    width: 330px;
+    box-shadow: 1px 1px 10px 5px #979090;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    flex-direction: column;
+}
+
+.counter{
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.inc {
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.dec {
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
